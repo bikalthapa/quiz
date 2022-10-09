@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quiz Game | Geography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadquestion()">
+	<div class="home">
+		<a href="index.html"><ion-icon name="home"></ion-icon></a>
+	</div>
+	<div class="invisible" id="game-over">
+		<h3 class="over">Game Over</h3>
+		<h3 class="final-score" id="final-score">Score : </h3>
+		<h3 class="correct" id="correct">Correct : </h3>
+		<h3 class="wrong" id="wrong">Wrong : </h3>
+		<h3 id="totalquestion">Total Q.N : </h3>
+		<a href="geography.html"><button>Play Again</button></a>
+		<a href="index.html"><button>Quit</button></a>
+	</div>
+	<div class="container">
+		<div class="head">
+			<div class="head-score-lives">
+				<h6 class="lives" id="lives">Lives :</h6>
+			</div>
+				<h6 id="score">Score : </h6>
+				<h6 id="time">Time : </h6>
+		</div>
+		<div class="main">
+			<h5 id="question">1. Who is known as the father of computer ?</h5>
+			<button id="answer1" onclick="answer1(1)">Charles Babbage</button><br>
+			<button id="answer2" onclick="answer2(2)">Joseph Jacquard</button><br>
+			<button id="answer3" onclick="answer3(3)">Lady Augusta</button><br>
+			<button id="answer4" onclick="answer4(4)">Willem Oughtered</button><br>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<script type="text/javascript" src="geography.js"></script>
+</body>
+</html>

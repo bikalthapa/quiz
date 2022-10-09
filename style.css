@@ -1,0 +1,127 @@
+/*Main style sheet for quiz*/
+.visible{
+	background-color: lemonchiffon;
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+	width: 350px;
+	padding: 10px;
+	z-index: 1;
+	position: fixed;
+	margin-left: 20vw;
+	margin-top: 25vh;
+	border: 1px solid black;
+}
+.visible .over{
+	font-size: 20px;
+	color: red;
+}
+.visible button{
+	width: 150px;
+	padding: 10px;
+	font-style: bold;
+}
+.visible button:hover{
+	background-color: lemonchiffon;
+}
+.invisible{
+	display: none;
+}
+.home ion-icon{
+	font-size: 25px;
+	padding: 10px;
+	border: 1px solid black;
+	color: black;
+}
+.home ion-icon:hover{
+	background-color: grey;
+	color: white;
+}
+body{
+	background-color: white;
+}
+
+.container{
+	background-color: yellow;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+.container .main button{
+	font-size: 25px;
+	font-family: cursive;
+	width: 100%;
+	padding: 10px;
+	margin-top: 15px;
+	font-weight: 900;
+}
+.container .main button:hover{
+	background-color: greeenyellow;
+	color: black;
+}
+.container .head{
+	background-color: green;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+.head .head-score-lives{
+	height: 100%;
+	width: 33.33%;
+	display: flex;
+	flex-direction: column;
+}
+
+.head .head-score-lives .lives{
+	margin-top: 3px;
+}
+
+.lives ion-icon{
+	color: red;
+}
+.head #score{
+	padding-left: 5px;
+	margin-top: 5px;
+	width: 33.33%;
+}
+.head #time{
+	padding-left: 5px;
+	margin-top: 5px;
+	width: 33.33%;
+}
+
+
+
+/*Fort Home Page*/
+.home-container{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: white;
+	width: 40vw;
+}
+.home-container .row1, .home-container .row2, .home-container .row3{
+	display: flex;
+	flex-direction: row;
+}
+.science,
+.history, 
+.technology,
+.geography,
+.health,
+.iq{
+	width: 20vw;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+.home-container img{
+	width: 10vw;
+	height: 10vh;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.head h1{
+	text-align: center;
+}
